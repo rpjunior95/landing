@@ -1,0 +1,106 @@
+/* Fonts */
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700'); */
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: inherit;
+}
+
+h1, h2, h3, h4 {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  background-image: url(/landing/images/16-hamburguer.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner h1 {
+  color: rgb(255, 255, 255);
+}
+
+.banner p {
+  color: rgb(255, 255, 255);
+  opacity: .6;
+  font-size: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #a10000;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+.btn-secondary {
+  border: 1px solid #a10000;
+  padding: 8px 24px;
+  border-radius: 50px;
+  color: #a10000;
+}
+
+
+.card img {
+  height: 120px;
+}
+
+.card p {
+  opacity: .6;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #a10000;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #76807b;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+.footer .fas {
+  color: #BF0F12;
+}
